@@ -199,7 +199,7 @@ var jsonSource_SignedParcelslastupdated111423_14 = new ol.source.Vector({
 });
 jsonSource_SignedParcelslastupdated111423_14.addFeatures(features_SignedParcelslastupdated111423_14);
 var lyr_SignedParcelslastupdated111423_14 = new ol.layer.Vector({
-                declutter: false,
+                declutter: true,
                 source:jsonSource_SignedParcelslastupdated111423_14, 
                 style: style_SignedParcelslastupdated111423_14,
                 interactive: true,
