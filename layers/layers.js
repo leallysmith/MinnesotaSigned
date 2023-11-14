@@ -174,7 +174,7 @@ var lyr_MinnesotaCountyNames_12 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_MinnesotaCountyNames_12, 
                 style: style_MinnesotaCountyNames_12,
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/MinnesotaCountyNames_12.png" /> Minnesota County Names'
             });
 var format_XCELSubstations_13 = new ol.format.GeoJSON();
@@ -233,7 +233,7 @@ var lyr_ParcelNames_16 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_ParcelNames_16, 
                 style: style_ParcelNames_16,
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/ParcelNames_16.png" /> Parcel Names'
             });
 var group_48eLowIncomeCredits = new ol.layer.Group({
@@ -285,7 +285,7 @@ lyr_MinnesotaCounties_11.set('fieldLabels', {'STATEFP': 'no label', 'COUNTYFP': 
 lyr_MinnesotaCountyNames_12.set('fieldLabels', {'STATEFP': 'no label', 'COUNTYFP': 'no label', 'COUNTYNS': 'no label', 'GEOID': 'no label', 'NAME': 'no label', 'NAMELSAD': 'no label', 'LSAD': 'no label', 'CLASSFP': 'no label', 'MTFCC': 'no label', 'CSAFP': 'no label', 'CBSAFP': 'no label', 'METDIVFP': 'no label', 'FUNCSTAT': 'no label', 'ALAND': 'no label', 'AWATER': 'no label', 'INTPTLAT': 'no label', 'INTPTLON': 'no label', });
 lyr_XCELSubstations_13.set('fieldLabels', {'FID': 'no label', 'NAME': 'no label', });
 lyr_SignedParcelslastupdated111423_14.set('fieldLabels', {'id': 'inline label', 'Parcel': 'header label', 'owner': 'inline label', 'LotSize': 'inline label', });
-lyr_SignedParcelslastupdated111423_15.set('fieldLabels', {'id': 'no label', 'Parcel': 'header label', 'owner': 'inline label', 'LotSize': 'no label', });
+lyr_SignedParcelslastupdated111423_15.set('fieldLabels', {'id': 'inline label', 'Parcel': 'header label', 'owner': 'inline label', 'LotSize': 'inline label', });
 lyr_ParcelNames_16.set('fieldLabels', {'id': 'no label', 'Parcel': 'header label', 'owner': 'inline label', 'LotSize': 'no label', });
 lyr_ParcelNames_16.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
