@@ -77,7 +77,7 @@ var layerSwitcher = new ol.control.LayerSwitcher({tipLabel: "Layers"});
 map.addControl(layerSwitcher);
 
     var searchLayer = new SearchLayer({
-      layer: lyr_SignedParcelslastupdated111423_15,
+      layer: lyr_SignedParcelslastupdated111423_14,
       colName: 'Parcel',
       zoom: 10,
       collapsed: true,
